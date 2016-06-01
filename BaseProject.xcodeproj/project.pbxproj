@@ -40,6 +40,7 @@
 		3886C0BB1BD74AE90014E661 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0BA1BD74AE90014E661 /* BaseViewModel.m */; };
 		3886C0BE1BD74AFE0014E661 /* BaseNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0BD1BD74AFE0014E661 /* BaseNetManager.m */; };
 		3886C0C11BD74B090014E661 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0C01BD74B090014E661 /* BaseModel.m */; };
+		A43AAD64B81F6FAD4AFCED1F /* libPods-BaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85891DC88FC62A7FF0B00BE9 /* libPods-BaseProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,9 +99,9 @@
 		3886C0BF1BD74B090014E661 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
 		3886C0C01BD74B090014E661 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		3886C0C21BD74B430014E661 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
-		4329DABFE5AD654FE71597C9 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
-		5EAAD623A23724C816F8DC02 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD4F0750B5DAAA87BA236B31 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
+		70855F8473DFF8CE6066A5F6 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
+		85891DC88FC62A7FF0B00BE9 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A2744CB4C446B4BEBC0E63 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +118,7 @@
 				3885C8FF1BE8EA46009441EA /* Security.framework in Frameworks */,
 				3885C8FD1BE8EA26009441EA /* SystemConfiguration.framework in Frameworks */,
 				3879FE811BDFA8E100A99990 /* libsqlite3.0.tbd in Frameworks */,
+				A43AAD64B81F6FAD4AFCED1F /* libPods-BaseProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,8 +168,8 @@
 			children = (
 				3886C0951BD748830014E661 /* BaseProject */,
 				3886C0941BD748830014E661 /* Products */,
-				DEB62B47C560AA65E07ECFA4 /* Pods */,
 				FA3445AEA3874C1D4FE61EAF /* Frameworks */,
+				F76B5F28545D951A55653847 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -296,11 +298,11 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		DEB62B47C560AA65E07ECFA4 /* Pods */ = {
+		F76B5F28545D951A55653847 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4329DABFE5AD654FE71597C9 /* Pods-BaseProject.debug.xcconfig */,
-				DD4F0750B5DAAA87BA236B31 /* Pods-BaseProject.release.xcconfig */,
+				70855F8473DFF8CE6066A5F6 /* Pods-BaseProject.debug.xcconfig */,
+				F6A2744CB4C446B4BEBC0E63 /* Pods-BaseProject.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -317,7 +319,7 @@
 				3885C8FE1BE8EA46009441EA /* Security.framework */,
 				3885C8FC1BE8EA26009441EA /* SystemConfiguration.framework */,
 				3879FE801BDFA8E100A99990 /* libsqlite3.0.tbd */,
-				5EAAD623A23724C816F8DC02 /* libPods-BaseProject.a */,
+				85891DC88FC62A7FF0B00BE9 /* libPods-BaseProject.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -329,12 +331,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3886C0AA1BD748830014E661 /* Build configuration list for PBXNativeTarget "BaseProject" */;
 			buildPhases = (
-				3BE2C1445115A065F15F14E8 /* Check Pods Manifest.lock */,
+				A9D38C74A02BAC9807A5022F /* 📦 Check Pods Manifest.lock */,
 				3886C08F1BD748830014E661 /* Sources */,
 				3886C0901BD748830014E661 /* Frameworks */,
 				3886C0911BD748830014E661 /* Resources */,
-				430C310E2266957577983B35 /* Embed Pods Frameworks */,
-				D8E8828545C9BEB50A74CA11 /* Copy Pods Resources */,
+				15806D668134F36994640FB8 /* 📦 Embed Pods Frameworks */,
+				A3B35BC8F0425CCBEB656B1D /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -356,6 +358,7 @@
 				TargetAttributes = {
 					3886C0921BD748830014E661 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = A5AELP7T27;
 					};
 				};
 			};
@@ -394,29 +397,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3BE2C1445115A065F15F14E8 /* Check Pods Manifest.lock */ = {
+		15806D668134F36994640FB8 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		430C310E2266957577983B35 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,19 +412,34 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D8E8828545C9BEB50A74CA11 /* Copy Pods Resources */ = {
+		A3B35BC8F0425CCBEB656B1D /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9D38C74A02BAC9807A5022F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -566,10 +569,11 @@
 		};
 		3886C0AB1BD748830014E661 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4329DABFE5AD654FE71597C9 /* Pods-BaseProject.debug.xcconfig */;
+			baseConfigurationReference = 70855F8473DFF8CE6066A5F6 /* Pods-BaseProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
@@ -579,12 +583,31 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/BaseProject/Vendor/UMAnalytics_Sdk_3.6.4",
-					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_4.2.5",
-					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
-					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Wechat",
+					"$(BUILT_PRODUCTS_DIR)/AFNetworking",
+					"$(BUILT_PRODUCTS_DIR)/BlocksKit",
+					"$(BUILT_PRODUCTS_DIR)/CocoaLumberjack",
+					"$(BUILT_PRODUCTS_DIR)/Masonry",
+					"$(BUILT_PRODUCTS_DIR)/AsyncDisplayKit",
+					"$(BUILT_PRODUCTS_DIR)/CocoaAsyncSocket",
+					"$(BUILT_PRODUCTS_DIR)/SVProgressHUD",
+					"$(BUILT_PRODUCTS_DIR)/SDWebImage",
+					"$(BUILT_PRODUCTS_DIR)/MJRefresh",
+					"$(BUILT_PRODUCTS_DIR)/MJExtension",
+					"$(BUILT_PRODUCTS_DIR)/MBProgressHUD",
+					"$(BUILT_PRODUCTS_DIR)/TPKeyboardAvoiding",
+					"$(BUILT_PRODUCTS_DIR)/MLTransition",
+					"$(BUILT_PRODUCTS_DIR)/FMDB",
+					"$(BUILT_PRODUCTS_DIR)/Shimmer",
+					"$(BUILT_PRODUCTS_DIR)/FlatUIKit",
+					"$(BUILT_PRODUCTS_DIR)/RESideMenu",
+					"$(BUILT_PRODUCTS_DIR)/SWTableViewCell",
+					"$(BUILT_PRODUCTS_DIR)/MWPhotoBrowser",
+					"$(BUILT_PRODUCTS_DIR)/WMPageController",
+					"$(BUILT_PRODUCTS_DIR)/DACircularProgress",
+					"$(BUILT_PRODUCTS_DIR)/PINCache",
+					"$(BUILT_PRODUCTS_DIR)/PINRemoteImage",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tingyun.BaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -592,10 +615,11 @@
 		};
 		3886C0AC1BD748830014E661 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD4F0750B5DAAA87BA236B31 /* Pods-BaseProject.release.xcconfig */;
+			baseConfigurationReference = F6A2744CB4C446B4BEBC0E63 /* Pods-BaseProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
@@ -605,11 +629,29 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/BaseProject/Vendor/UMAnalytics_Sdk_3.6.4",
-					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_4.2.5",
-					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
-					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Wechat",
+					"$(BUILT_PRODUCTS_DIR)/AFNetworking",
+					"$(BUILT_PRODUCTS_DIR)/BlocksKit",
+					"$(BUILT_PRODUCTS_DIR)/CocoaLumberjack",
+					"$(BUILT_PRODUCTS_DIR)/Masonry",
+					"$(BUILT_PRODUCTS_DIR)/AsyncDisplayKit",
+					"$(BUILT_PRODUCTS_DIR)/CocoaAsyncSocket",
+					"$(BUILT_PRODUCTS_DIR)/SVProgressHUD",
+					"$(BUILT_PRODUCTS_DIR)/SDWebImage",
+					"$(BUILT_PRODUCTS_DIR)/MJRefresh",
+					"$(BUILT_PRODUCTS_DIR)/MJExtension",
+					"$(BUILT_PRODUCTS_DIR)/MBProgressHUD",
+					"$(BUILT_PRODUCTS_DIR)/TPKeyboardAvoiding",
+					"$(BUILT_PRODUCTS_DIR)/MLTransition",
+					"$(BUILT_PRODUCTS_DIR)/FMDB",
+					"$(BUILT_PRODUCTS_DIR)/Shimmer",
+					"$(BUILT_PRODUCTS_DIR)/FlatUIKit",
+					"$(BUILT_PRODUCTS_DIR)/RESideMenu",
+					"$(BUILT_PRODUCTS_DIR)/SWTableViewCell",
+					"$(BUILT_PRODUCTS_DIR)/MWPhotoBrowser",
+					"$(BUILT_PRODUCTS_DIR)/WMPageController",
+					"$(BUILT_PRODUCTS_DIR)/DACircularProgress",
+					"$(BUILT_PRODUCTS_DIR)/PINCache",
+					"$(BUILT_PRODUCTS_DIR)/PINRemoteImage",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tingyun.BaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
